@@ -16,14 +16,14 @@ const Navbar = () => {
               <img src={sbmlogo} class="inline-block h-10" alt="" />
             </NavLink>
             <ul class=" hidden sm:flex space-x-8">
-              <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-600">
+              <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-300 active:text-blue-600">
                 <NavLink to="/">Home</NavLink>
               </li>
-              <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-600">
-                <NavLink>Products</NavLink>
+              <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-300 active:text-blue-600">
+                <NavLink to="/Products">Products</NavLink>
               </li>
-              <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-600">
-                <NavLink>Contact Us</NavLink>
+              <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-300 active:text-blue-600">
+                <NavLink to="/Contact">Contact Us</NavLink>
               </li>
             </ul>
             <div class="sm:hidden">
