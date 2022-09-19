@@ -9,7 +9,7 @@ import { MdClose } from "react-icons/md";
 const Navbar = () => {
   return (
     <>
-      <header class="absolute bg-white pb-3">
+      <header class=" bg-white pb-3">
         <nav class="w-screen pt-7 ">
           <div class="flex mx-auto justify-between px-4 sm:px-8 lg:px-12">
             <img src={sbmlogo} class="inline-block h-10" alt="" />
