@@ -12,15 +12,23 @@ const Navbar = () => {
       <header class=" bg-white pb-3">
         <nav class="w-screen pt-7 ">
           <div class="flex mx-auto justify-between px-4 sm:px-8 lg:px-12">
-            <img src={sbmlogo} class="inline-block h-10" alt="" />
-            <ul class=" hidden sm:flex space-x-4">
-              <li class="inline-block">Home</li>
-              <li class="inline-block">Products</li>
-              <li class="inline-block">Contact Us</li>
+            <NavLink>
+              <img src={sbmlogo} class="inline-block h-10" alt="" />
+            </NavLink>
+            <ul class=" hidden sm:flex space-x-8">
+              <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-600">
+                <NavLink to="/">Home</NavLink>
+              </li>
+              <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-600">
+                <NavLink>Products</NavLink>
+              </li>
+              <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-600">
+                <NavLink>Contact Us</NavLink>
+              </li>
             </ul>
             <div class="sm:hidden">
               <Popover className="sm:hidden text-slate-900 py-1 px-2 rounded-md ring-1 ring-zinc-500/40 ">
-                <Popover.Button>
+                <Popover.Button class="outline-none pt-1 ">
                   {" "}
                   <GiHamburgerMenu />{" "}
                 </Popover.Button>
@@ -44,17 +52,25 @@ const Navbar = () => {
                     <ul class=" mt-4 divide-y font-sans text-base font-normal text-slate-900 divide-zinc-500/40 ">
                       <li>
                         {" "}
-                        <Popover.Button class="pt-3 pb-2">About</Popover.Button>
+                        <NavLink>
+                          <Popover.Button class="pt-3 pb-2">
+                            About
+                          </Popover.Button>
+                        </NavLink>
                       </li>
                       <li>
-                        <Popover.Button class="pt-3 pb-2">
-                          Products
-                        </Popover.Button>
+                        <NavLink>
+                          <Popover.Button class="pt-3 pb-2">
+                            Products
+                          </Popover.Button>
+                        </NavLink>
                       </li>
                       <li>
-                        <Popover.Button class="pt-3 pb-2">
-                          Contact Us
-                        </Popover.Button>
+                        <NavLink>
+                          <Popover.Button class="pt-3 pb-2">
+                            Contact Us
+                          </Popover.Button>
+                        </NavLink>
                       </li>
                     </ul>
                   </div>
