@@ -12,7 +12,7 @@ const Navbar = () => {
       <header class=" bg-white pb-3">
         <nav class="w-screen pt-7 ">
           <div class="flex mx-auto justify-between px-4 sm:px-8 lg:px-12">
-            <NavLink>
+            <NavLink to="/">
               <img src={sbmlogo} class="inline-block h-10" alt="" />
             </NavLink>
             <ul class=" hidden sm:flex space-x-8">
@@ -52,21 +52,21 @@ const Navbar = () => {
                     <ul class=" mt-4 divide-y font-sans text-base font-normal text-slate-900 divide-zinc-500/40 ">
                       <li>
                         {" "}
-                        <NavLink>
+                        <NavLink to="/">
                           <Popover.Button class="pt-3 pb-2">
                             About
                           </Popover.Button>
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink>
+                        <NavLink to="/Products">
                           <Popover.Button class="pt-3 pb-2">
                             Products
                           </Popover.Button>
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink>
+                        <NavLink to="/Contact">
                           <Popover.Button class="pt-3 pb-2">
                             Contact Us
                           </Popover.Button>
