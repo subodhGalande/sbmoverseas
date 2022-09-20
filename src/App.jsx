@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Home from "./components/home";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Products"></Route>
         <Route path="/Contact"></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
