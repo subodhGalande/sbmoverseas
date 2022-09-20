@@ -1,15 +1,22 @@
 import React from "react";
 import { ReactDOM } from "react";
+import apeda from "../assets/apeda.png";
+import dgft from "../assets/dgft.png";
+import fieo from "../assets/fieo.png";
+import fssai from "../assets/fssai.png";
+import iso from "../assets/iso.png";
+import msme from "../assets/msme.png";
+import spice from "../assets/spice.jpg";
 
 const About = () => {
   return (
     <>
       <div class="container mx-auto max-w-5/6 mt-20 px-4 md:px-8 lg:px-12">
-        <h1 className=" mx-auto font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-7xl font-serif md:text-5xl text-center ">
+        <h1 className=" font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-6xl font-serif md:text-5xl text-center ">
           About Us
         </h1>
 
-        <h3 className=" text-center  mx-auto  leading-tight text-slate-600 text-lg md:text-md xl:text-2xl mt-8 md:mt-6 lg:mt-5 font-bold">
+        <h3 className=" text-center leading-tight text-slate-600 text-lg md:text-md xl:text-2xl mt-8 md:mt-5 lg:mt-4 font-bold">
           <em class="text-semibold">SBM Overseas </em>is having its own roots at
           all stages results in competitive price and quality excellence.
         </h3>
@@ -39,6 +46,60 @@ const About = () => {
             </p>
           </div>
         </div>
+        <h2 className=" mt-20 font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-6xl font-serif md:text-5xl text-center">
+          Certifications
+          <ul className=" mt-12 sm:-ml-5  flex flex-col md:flex-row md:items-baseline space-y-8 md:space-x-8 md:space-y-0 ">
+            <li>
+              <img
+                src={apeda}
+                class=" inline-block h-auto w-5/6 md:w-[90rem] md:h-auto "
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                src={dgft}
+                alt=""
+                class="   inline-block h-auto w-3/5  md:w-screen md:h-auto "
+              />
+            </li>
+            <li>
+              <img
+                src={fssai}
+                alt=""
+                class="   inline-block h-auto w-3/5  md:w-screen md:h-auto "
+              />
+            </li>
+            <li>
+              <img
+                src={iso}
+                alt=""
+                class="  inline-block h-auto w-1/3 md:w-screen md:h-auto  "
+              />
+            </li>
+            <li>
+              <img
+                src={msme}
+                alt=""
+                class="  inline-block h-auto w-3/5 md:w-screen md:h-auto "
+              />
+            </li>
+            <li>
+              <img
+                src={spice}
+                alt=""
+                class="  inline-block h-auto w-3/5 md:w-screen md:h-auto "
+              />
+            </li>{" "}
+            <li>
+              <img
+                src={fieo}
+                alt=""
+                class="  inline-block h-auto w-3/5 md:w-[80rem] md:h-auto "
+              />
+            </li>
+          </ul>
+        </h2>
       </div>
     </>
   );
