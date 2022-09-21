@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactDOM } from "react";
-
+import { Link } from "react-router-dom";
 import heroimage from "../assets/Hero.png";
 import { Popover } from "@headlessui/react";
 
@@ -20,9 +20,11 @@ const Hero = () => {
             SBM Overseas is one of the most prominent names in the Turmeric
             market of Madhya Pradesh.
           </p>
-          <button class=" animate-bounce mt-8 bg-gradient-to-tr from-blue-600  to-blue-400 text-white px-3 py-1 rounded-md ">
-            Contact Us
-          </button>
+          <Link to="/contact">
+            <button class=" animate-bounce font-medium mt-8 bg-gradient-to-tr from-blue-600  to-blue-400 text-white px-3 py-1 rounded-md ">
+              Contact Us
+            </button>
+          </Link>
         </div>
         <div className="-mt-5 flex justify-center items-center ">
           <img
