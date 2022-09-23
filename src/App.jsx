@@ -6,6 +6,9 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/footer";
 import Products from "./components/products";
+import TurmericPowder from "./components/products/turmericPowder";
+import BlackTurmeric from "./components/products/blackTurmeric";
+import TurmericFinger from "./components/products/turmericFingers";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +20,9 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/Products" element={<Products />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
+        <Route path="/turmericpowder" element={<TurmericPowder />}></Route>
+        <Route path="/blackturmeric" element={<BlackTurmeric />}></Route>
+        <Route path="/turmericfinger" element={<TurmericFinger />}></Route>
       </Routes>
       <Footer />
     </div>
