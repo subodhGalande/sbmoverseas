@@ -5,6 +5,7 @@ import Contact from "./components/contact";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/footer";
+import Products from "./components/products";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,7 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/Products"></Route>
+        <Route path="/Products" element={<Products />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
       </Routes>
       <Footer />

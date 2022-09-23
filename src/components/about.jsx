@@ -11,8 +11,8 @@ import spice from "../assets/spice.jpg";
 const About = () => {
   return (
     <>
-      <div class="container mx-auto max-w-5/6 mt-20 px-4 md:px-8 lg:px-12">
-        <h1 className=" font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-6xl font-serif md:text-5xl text-center ">
+      <div class="container mx-auto max-w-5/6 mt-20 lg:mt-28 px-4 md:px-8 lg:px-12">
+        <h1 className=" font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-6xl font-sans md:text-5xl text-center ">
           About Us
         </h1>
 
@@ -21,7 +21,7 @@ const About = () => {
           all stages results in competitive price and quality excellence.
         </h3>
         <div class="container mx-auto w-full h-full sm:space-x-10 mt-5 lg:w-4/5 ">
-          <div class=" space-y-3  text-slate-500 text-base md:text-sm xl:text-lg text-center lg:text-base mt-10 lg:mt-10 font-medium">
+          <div class=" space-y-3  text-slate-500 text-base md:text-sm xl:text-lg text-center lg:text-base mt-10 lg:mt-12 font-medium">
             <p>
               The company is having all in one roof facility i. e. trading,
               processing, storing, local transportation etc. helps to cut cost
@@ -46,7 +46,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <h2 className=" mt-20 font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-6xl font-serif md:text-5xl text-center">
+        <h2 className=" mt-20 lg:mt-32 font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-6xl font-sans md:text-5xl text-center">
           Certifications
           <ul className=" mt-12 sm:-ml-5  flex flex-col md:flex-row md:items-baseline space-y-8 md:space-x-8 md:space-y-0 ">
             <li>

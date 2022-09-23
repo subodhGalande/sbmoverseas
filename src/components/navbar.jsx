@@ -54,12 +54,12 @@ const Navbar = () => {
                         {" "}
                         <NavLink to="/">
                           <Popover.Button class="pt-3 pb-2">
-                            About
+                            Home
                           </Popover.Button>
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink to="/Products">
+                        <NavLink to="/products">
                           <Popover.Button class="pt-3 pb-2">
                             Products
                           </Popover.Button>
