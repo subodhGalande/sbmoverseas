@@ -46,28 +46,40 @@ const Products = () => {
         <div class="grid gap-4 mt-10 sm:grid-cols-3">
           <div>
             <div className=" relative w-full h-60 sm:h-full border-2 rounded-xl overflow-hidden  shadow-lg ">
+<<<<<<< HEAD
               <span class=" brightness-75 ">
                 {" "}
                 <img src={turmericpowder} className="" />
               </span>
+=======
+              <img class=" brightness-50 " src={turmericpowder} className="" />
+>>>>>>> 2af1f9bd65609f4b7ed84beb227225ea98e33ab1
               <h1 className=" absolute text-center text-white inset top-1/2 left-1/2 text-3xl md:text-2xl lg:text-4xl font-bold -translate-x-1/2 -translate-y-1/2 ">
                 Turmeric Powder
               </h1>
             </div>
           </div>
           <div className=" relative w-full h-60 sm:h-full border-2 rounded-xl overflow-hidden  shadow-lg ">
+<<<<<<< HEAD
             <span class="brightness-50">
               {" "}
               <img src={blackturmeric} className="" />{" "}
             </span>
+=======
+            <img class=" brightness-50 " src={blackturmeric} className="" />
+>>>>>>> 2af1f9bd65609f4b7ed84beb227225ea98e33ab1
             <h1 className=" absolute text-center text-white inset top-1/2 left-1/2 text-3xl md:text-2xl lg:text-4xl font-bold -translate-x-1/2 -translate-y-1/2 ">
               Black Turmeric{" "}
             </h1>
           </div>
           <div className=" relative w-full h-60 sm:h-full border-2 rounded-xl overflow-hidden  shadow-lg ">
+<<<<<<< HEAD
             <span class="brightness-75">
               <img src={finger} className="" />
             </span>
+=======
+            <img class=" brightness-50" src={finger} className="" />
+>>>>>>> 2af1f9bd65609f4b7ed84beb227225ea98e33ab1
             <h1 className=" absolute text-center text-white inset top-1/2 left-1/2 text-3xl md:text-2xl lg:text-4xl font-bold -translate-x-1/2 -translate-y-1/2 ">
               Turmeric Fingers{" "}
             </h1>
