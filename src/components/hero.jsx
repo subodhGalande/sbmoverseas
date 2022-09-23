@@ -7,7 +7,7 @@ import { Popover } from "@headlessui/react";
 const Hero = () => {
   return (
     <>
-      <div class=" grid border-t-2 2xl:-mt-24 md:grid-cols-2 w-screen h-full ">
+      <div class=" grid border-t-2  md:grid-cols-2 w-screen h-full ">
         <div class="col-auto lg:w-full flex flex-col md:items-start justify-center items-center bg-transparent px-4 md:px-8 2xl:px-12 ">
           <p className=" inline-block md:text-xs xl:text-lg pl-1 lg:text-sm mt-10 xl:pl-2 text-sm tracking-widest  text-slate-500 font-light  ">
             Hey there and welcome to{" "}

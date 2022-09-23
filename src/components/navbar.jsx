@@ -2,7 +2,7 @@ import React from "react";
 import { ReactDOM } from "react";
 import sbmlogo from "../assets/SBM.png";
 import { Popover } from "@headlessui/react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 
@@ -12,18 +12,18 @@ const Navbar = () => {
       <header class=" bg-white pb-3">
         <nav class="w-screen pt-7 ">
           <div class="flex mx-auto justify-between px-4 sm:px-8 lg:px-12">
-            <NavLink to="/">
+            <Link to="/">
               <img src={sbmlogo} class="inline-block h-10" alt="" />
-            </NavLink>
+            </Link>
             <ul class=" hidden sm:flex space-x-8">
               <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-300 active:text-blue-600">
-                <NavLink to="/">Home</NavLink>
+                <Link to="/">Home</Link>
               </li>
               <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-300 active:text-blue-600">
-                <NavLink to="/Products">Products</NavLink>
+                <Link to="/Products">Products</Link>
               </li>
               <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-300 active:text-blue-600">
-                <NavLink to="/Contact">Contact Us</NavLink>
+                <Link to="/Contact">Contact Us</Link>
               </li>
             </ul>
             <div class="sm:hidden">
