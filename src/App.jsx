@@ -9,6 +9,7 @@ import Products from "./components/products";
 import TurmericPowder from "./components/products/turmericPowder";
 import BlackTurmeric from "./components/products/blackTurmeric";
 import TurmericFinger from "./components/products/turmericFingers";
+import About from "./components/about";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
         <Route path="/Products" element={<Products />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
         <Route path="/turmericpowder" element={<TurmericPowder />}></Route>

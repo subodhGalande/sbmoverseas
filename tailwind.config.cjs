@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Raleway", "sans-serif"],
-        serif: ["Playfair Display", "serif"],
+        serif: ["Yeseva One", "serif"],
       },
     },
   },

@@ -20,6 +20,9 @@ const Navbar = () => {
                 <Link to="/">Home</Link>
               </li>
               <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-300 active:text-blue-600">
+                <Link to="/about">About Us</Link>
+              </li>
+              <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-300 active:text-blue-600">
                 <Link to="/Products">Products</Link>
               </li>
               <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-300 active:text-blue-600">
@@ -55,6 +58,14 @@ const Navbar = () => {
                         <NavLink to="/">
                           <Popover.Button class="pt-3 pb-2">
                             Home
+                          </Popover.Button>
+                        </NavLink>
+                      </li>
+                      <li>
+                        {" "}
+                        <NavLink to="/about">
+                          <Popover.Button class="pt-3 pb-2">
+                            About
                           </Popover.Button>
                         </NavLink>
                       </li>
