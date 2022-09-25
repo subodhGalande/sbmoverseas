@@ -11,9 +11,9 @@ const Navbar = () => {
     <>
       <header class=" bg-white pb-3">
         <nav class="w-screen pt-7 ">
-          <div class="flex mx-auto justify-between px-4 sm:px-8 lg:px-12">
+          <div class="flex mx-auto justify-between px-4 sm:px-8 lg:px-12 items-center">
             <Link to="/">
-              <img src={sbmlogo} class="inline-block h-10" alt="" />
+              <img src={sbmlogo} class="inline-block h-10 lg:h-16" alt="" />
             </Link>
             <ul class=" hidden sm:flex space-x-8">
               <li class="inline-block text-lg font-medium text-slate-700 hover:text-blue-300 active:text-blue-600">

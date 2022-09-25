@@ -11,14 +11,14 @@ const Hero = () => {
       <div class=" grid border-t-2  md:grid-cols-2 w-screen h-full ">
         <div class="col-auto lg:w-full flex flex-col md:items-start justify-center items-center bg-transparent px-4 md:px-8 2xl:px-12 ">
           <h1 className="inline-block mt-10  text-transparent text-5xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600 lg:text-[7rem] xl:text-8xl font-serif  md:text-7xl md:text-left text-center font-black">
-            SBM Overseas
+            Be it any industry
           </h1>
           <p className="inline-block leading-tight text-slate-600 text-lg md:text-md xl:text-2xl text-center md:text-left mt-8 md:mt-6 pl-1 lg:mt-10 font-medium">
-            SBM Overseas is one of the most prominent names in the Turmeric
-            market of Madhya Pradesh.
+            SBM Overseas provides 100% authentic Indian Turmeric for your any
+            need.
           </p>
           <a href={brochure} download>
-            <button class=" animate-bounce font-medium mt-8 bg-gradient-to-tr from-blue-600  to-blue-400 text-white px-3 py-1 rounded-md ">
+            <button class=" animate-bounce font-medium mt-8 lg:text-lg bg-gradient-to-tr from-blue-600  to-blue-400 text-white px-3 py-1 rounded-md ">
               Brochure
             </button>
           </a>

@@ -12,7 +12,7 @@ const Products = () => {
       <div class="container mx-auto px-4 md:px-8 lg:px-12 max-w-7xl">
         <h1 className=" mt-10 text-transparent text-center md:text-4xl lg:text-7xl text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600 font-bold">
           {" "}
-          Our Products{" "}
+          Turmeric - The Golden Spice{" "}
         </h1>
 
         <div class=" mt-10 lg:mt-20 grid md:grid-cols-2 md:gap-7 w-full ">

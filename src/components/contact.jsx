@@ -9,9 +9,9 @@ const Contact = () => {
     <>
       <h1 className=" mt-10 text-transparent text-center md:text-4xl lg:text-7xl text-3xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600 font-bold">
         {" "}
-        Love to hear from you <br /> Get in touch.{" "}
+        Love to hear from you{" "}
       </h1>
-      <div className=" grid container gap-3 sm:grid-cols-2 mt-10  mx-auto px-4 md:px-8 lg:px-12">
+      <div className=" grid container gap-3 sm:grid-cols-2 lg:mt-20 mt-10  mx-auto px-4 md:px-8 lg:px-12">
         <div className="mx-auto text-center mb-10 ">
           <h2 class="font-sans font-semibold sm:text-left mt-4 text-xl lg:text-2xl text-slate-600">
             SBM Overseas
@@ -405,6 +405,16 @@ const Contact = () => {
             </form>
           </div>
         </div>
+      </div>
+      <div className="mt-10">
+        <iframe
+          src="https://my.atlistmaps.com/map/96840ab1-d646-447e-be55-92ae1ba13889?share=true"
+          allow="geolocation"
+          frameborder="0"
+          scrolling="no"
+          allowfullscreen
+          className="w-full h-72"
+        ></iframe>
       </div>
     </>
   );

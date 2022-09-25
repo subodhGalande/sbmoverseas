@@ -41,6 +41,7 @@ const TurmericPowder = () => {
             </p>
           </div>
         </div>
+        <hr className="mt-10 lg:mt-20" />
         <div class="mt-10 lg:mt-20 mx-auto w-5/6 ">
           <table class="w-full table-fixed border-2">
             <thead class="border-b">
@@ -128,7 +129,7 @@ const TurmericPowder = () => {
               </tr>
               <tr class="border-b">
                 <td class="px-6 py-4 lg:text-lg whitespace-nowrap text-sm font-medium text-slate-600">
-                  Turmeric Powder
+                  Packaging
                 </td>
                 <td class="text-sm lg:text-lg text-slate-600 font-normal whitespace-pre-wrap px-6 py-4 ">
                   HDPE, Paper Bags 10 kgs, 20 kgs, 25 kgs / Customizable

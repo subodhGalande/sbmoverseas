@@ -149,61 +149,63 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <h2 className=" mt-20 lg:mt-32 font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-6xl font-sans md:text-5xl text-center">
+      <h2 className=" mt-20 lg:mt-32 text-4xl lg:text-6xl text-center font-serif text-slate-600 font-black ">
         {" "}
         Certifications{" "}
       </h2>
-      <ul className=" mt-12 sm:-ml-5  flex flex-col md:flex-row md:items-baseline space-y-8 md:space-x-8 md:space-y-0 ">
-        <li>
-          <img
-            src={apeda}
-            class=" inline-block h-auto w-5/6 md:w-[90rem] md:h-auto "
-            alt=""
-          />
-        </li>
-        <li>
-          <img
-            src={dgft}
-            alt=""
-            class="   inline-block h-auto w-3/5  md:w-screen md:h-auto "
-          />
-        </li>
-        <li>
-          <img
-            src={fssai}
-            alt=""
-            class="   inline-block h-auto w-3/5  md:w-screen md:h-auto "
-          />
-        </li>
-        <li>
-          <img
-            src={iso}
-            alt=""
-            class="  inline-block h-auto w-1/3 md:w-screen md:h-auto  "
-          />
-        </li>
-        <li>
-          <img
-            src={msme}
-            alt=""
-            class="  inline-block h-auto w-3/5 md:w-screen md:h-auto "
-          />
-        </li>
-        <li>
-          <img
-            src={spice}
-            alt=""
-            class="  inline-block h-auto w-3/5 md:w-screen md:h-auto "
-          />
-        </li>{" "}
-        <li>
-          <img
-            src={fieo}
-            alt=""
-            class="  inline-block h-auto w-3/5 md:w-[80rem] md:h-auto "
-          />
-        </li>
-      </ul>
+      <div className="mx-auto px-4 md:px-8 lg:px-12  ">
+        <ul className=" mt-12 flex flex-col mx-auto md:flex-row md:items-baseline space-y-8 md:space-x-6 xl:space-x-12 md:space-y-0 ">
+          <li class="w-5/6 mx-auto">
+            <img
+              src={apeda}
+              class=" inline-block h-min md:w-[110rem] md:h-auto "
+              alt=""
+            />
+          </li>
+          <li class="w-3/5 mx-auto">
+            <img
+              src={dgft}
+              alt=""
+              class="   inline-block h-fit  md:w-[80rem] md:h-auto "
+            />
+          </li>
+          <li class="w-3/5 mx-auto">
+            <img
+              src={fssai}
+              alt=""
+              class="   inline-block h-fit   md:w-[70rem] md:h-auto "
+            />
+          </li>
+          <li class="w-1/3 mx-auto">
+            <img
+              src={iso}
+              alt=""
+              class="  inline-block h-fit  md:w-[50rem] md:h-auto  "
+            />
+          </li>
+          <li class="w-3/5 mx-auto">
+            <img
+              src={msme}
+              alt=""
+              class="  inline-block h-fit  md:w-[70rem] md:h-auto "
+            />
+          </li>
+          <li class="w-3/5 mx-auto">
+            <img
+              src={spice}
+              alt=""
+              class="  inline-block h-fit  md:w-[80rem] md:h-auto "
+            />
+          </li>{" "}
+          <li class="w-3/5 mx-auto">
+            <img
+              src={fieo}
+              alt=""
+              class="  inline-block h-fit  md:w-[90rem] md:h-auto "
+            />
+          </li>
+        </ul>
+      </div>
     </>
   );
 };

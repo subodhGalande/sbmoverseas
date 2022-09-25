@@ -21,7 +21,14 @@ const TurmericFinger = () => {
               </button>
             </Link>
           </div>
-          <div className="lg:w-1/2 ">
+          <div className="lg:w-1/2 space-y-4 ">
+            <p class="  text-center sm:text-left mt-2 md:mt-0 space-y-2 text-md md:text-sm lg:text-lg font-medium text-slate-600">
+              The Turmeric Finger is the purest form of turmeric. The product is
+              sourced from the farmers who grow the crop in natural and organic
+              manner. Turmeric or Curcuma Longa is a member of the ginger family
+              and is a handsome perennial with large lily-like leaves and
+              clusters of flowers in spikes.
+            </p>
             <p class="  text-center sm:text-left mt-2 md:mt-0 space-y-2 text-md md:text-sm lg:text-lg font-medium text-slate-600">
               The Turmeric, provided by us is 100% natural. It has a great
               taste, powerful anti-inflammatory effects, immunity-boosting, and
@@ -32,6 +39,7 @@ const TurmericFinger = () => {
             </p>
           </div>
         </div>
+        <hr className="mt-10 lg:mt-20" />
         <div class="mt-10 lg:mt-20 mx-auto w-5/6 ">
           <table class="w-full table-fixed border-2">
             <thead class="border-b">
