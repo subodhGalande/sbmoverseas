@@ -1,18 +1,12 @@
 import React from "react";
 import { ReactDOM } from "react";
-import apeda from "../assets/apeda.png";
-import dgft from "../assets/dgft.png";
-import fieo from "../assets/fieo.png";
-import fssai from "../assets/fssai.png";
-import iso from "../assets/iso.png";
-import msme from "../assets/msme.png";
-import spice from "../assets/spice.jpg";
+import factory from "../assets/factory.png";
 
 const About = () => {
   return (
     <>
       <div class="container mx-auto max-w-5/6 mt-20 lg:mt-28 px-4 md:px-8 lg:px-12">
-        <h1 className=" font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-6xl font-sans md:text-5xl text-center ">
+        <h1 className=" font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-6xl font-serif tracking-wide md:text-5xl text-center ">
           About Us
         </h1>
 
@@ -21,7 +15,7 @@ const About = () => {
           all stages results in competitive price and quality excellence.
         </h3>
         <div class="container mx-auto w-full h-full sm:space-x-10 mt-5 lg:w-4/5 ">
-          <div class=" space-y-3  text-slate-500 text-base md:text-sm xl:text-lg text-center lg:text-base mt-10 lg:mt-12 font-medium">
+          <div class=" space-y-3  text-slate-500 text-base md:text-sm xl:text-xl text-center lg:text-base mt-10 lg:mt-12 font-medium">
             <p>
               The company is having all in one roof facility i. e. trading,
               processing, storing, local transportation etc. helps to cut cost
@@ -46,60 +40,37 @@ const About = () => {
             </p>
           </div>
         </div>
-        <h2 className=" mt-20 lg:mt-32 font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600  lg:text-6xl font-sans md:text-5xl text-center">
-          Certifications
-          <ul className=" mt-12 sm:-ml-5  flex flex-col md:flex-row md:items-baseline space-y-8 md:space-x-8 md:space-y-0 ">
-            <li>
-              <img
-                src={apeda}
-                class=" inline-block h-auto w-5/6 md:w-[90rem] md:h-auto "
-                alt=""
-              />
-            </li>
-            <li>
-              <img
-                src={dgft}
-                alt=""
-                class="   inline-block h-auto w-3/5  md:w-screen md:h-auto "
-              />
-            </li>
-            <li>
-              <img
-                src={fssai}
-                alt=""
-                class="   inline-block h-auto w-3/5  md:w-screen md:h-auto "
-              />
-            </li>
-            <li>
-              <img
-                src={iso}
-                alt=""
-                class="  inline-block h-auto w-1/3 md:w-screen md:h-auto  "
-              />
-            </li>
-            <li>
-              <img
-                src={msme}
-                alt=""
-                class="  inline-block h-auto w-3/5 md:w-screen md:h-auto "
-              />
-            </li>
-            <li>
-              <img
-                src={spice}
-                alt=""
-                class="  inline-block h-auto w-3/5 md:w-screen md:h-auto "
-              />
-            </li>{" "}
-            <li>
-              <img
-                src={fieo}
-                alt=""
-                class="  inline-block h-auto w-3/5 md:w-[80rem] md:h-auto "
-              />
-            </li>
-          </ul>
-        </h2>
+
+        <div class="w-full h-full">
+          <h1 className=" font-extrabold text-transparent text-3xl bg-clip-text mt-20 sm:mt-32 lg:text-5xl font-sans tracking-wide md:text-5xl text-slate-600 text-center ">
+            Processing Facility
+          </h1>
+
+          <img
+            src={factory}
+            alt=""
+            className="lg:mt-16 mt-10 rounded-md w-full sm:w-1/2 mx-auto "
+          />
+
+          <div className=" max-w-7xl mx-auto  space-y-3  text-slate-500 text-base md:text-sm xl:text-xl text-center lg:text-base mt-10 lg:mt-12 font-medium">
+            <p>
+              {" "}
+              Upon harvest, we receive crops from our organic farms for
+              processing in our certified facilities, where we process and
+              package while following global standards. Our company adheres to
+              strict Food Safety regulations and processes. Our state-of-art
+              machinery undertaking various production processes, enabling us to
+              give finished products adhering to the required international
+              quality standards with competitive pricing.
+            </p>
+            <p>
+              {" "}
+              Apart from this we also have strong ties with our suppliers, who
+              themselves have several years of experience and their factories
+              are solely occupied with serving quality products to us.
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
