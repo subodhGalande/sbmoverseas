@@ -78,25 +78,35 @@ const Contact = () => {
             Enquire Now
           </h1>
           <div class=" w-5/6 mt-4 text-center mx-auto sm:mx-0">
-            <form action="" className="space-y-5 ">
+            <form
+              action="https://formspree.io/f/xgeqkdow"
+              method="POST"
+              className="space-y-5 "
+            >
               <input
                 class="block w-full flex-1 text-slate-700 font-medium rounded-md border-gray-300 focus:border-blue-400 focus:ring-blue-400 sm:text-sm lg:text-lg "
                 placeholder="Your Name"
                 type="text"
+                name="name"
                 required
               />
               <input
                 class="block w-full flex-1 rounded-md  text-slate-700 font-medium border-gray-300 focus:border-blue-400 focus:ring-blue-400 sm:text-sm lg:text-lg "
                 placeholder="E-Mail Address"
                 type="email"
+                name="email"
                 required
               />
               <input
                 class="block w-full flex-1 rounded-md  text-slate-700 font-medium border-gray-300 focus:border-blue-400 focus:ring-blue-400 sm:text-sm lg:text-lg "
                 placeholder="Phone number"
+                name="number"
                 type="tel"
               />
-              <select class="block w-full flex-1 rounded-md  text-slate-700 font-medium border-gray-300 focus:border-blue-400 focus:ring-blue-400 sm:text-sm lg:text-lg ">
+              <select
+                name="country"
+                class="block w-full flex-1 rounded-md  text-slate-700 font-medium border-gray-300 focus:border-blue-400 focus:ring-blue-400 sm:text-sm lg:text-lg "
+              >
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Albania">Albania</option>
                 <option value="Algeria">Algeria</option>
@@ -393,6 +403,7 @@ const Contact = () => {
               <textarea
                 class="block w-full flex-1 rounded-md  text-slate-700 font-medium border-gray-300 focus:border-blue-400 focus:ring-blue-400 sm:text-sm lg:text-lg "
                 type="textarea"
+                name="message"
                 placeholder="Message"
               />
               <button
