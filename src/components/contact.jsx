@@ -3,6 +3,7 @@ import { ReactDOM } from "react";
 import { HiOfficeBuilding } from "react-icons/hi";
 import { HiMail } from "react-icons/hi";
 import { HiPhone } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -83,6 +84,11 @@ const Contact = () => {
               method="POST"
               className="space-y-5 "
             >
+              <input
+                type="hidden"
+                name="_next"
+                value="//www.sbmoverseas.com/"
+              />
               <input
                 class="block w-full flex-1 text-slate-700 font-medium rounded-md border-gray-300 focus:border-blue-400 focus:ring-blue-400 sm:text-sm lg:text-lg "
                 placeholder="Your Name"
@@ -411,7 +417,7 @@ const Contact = () => {
                 className=" bg-gradient-to-tr from-blue-600 px-3 py-2 rounded-md text-white font-bold to-blue-400 lg:text-lg "
               >
                 {" "}
-                Submit{" "}
+                Submit
               </button>
             </form>
           </div>
