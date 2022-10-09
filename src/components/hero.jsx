@@ -8,7 +8,7 @@ import brochure from "../assets/Brochure.pdf";
 const Hero = () => {
   return (
     <>
-      <div class=" grid border-t-2  md:grid-cols-2 w-screen h-full ">
+      <div class=" relative grid border-t-2  md:grid-cols-2 w-screen h-full ">
         <div class="col-auto lg:w-full flex flex-col md:items-start justify-center items-center bg-transparent px-4 md:px-8 2xl:px-12 ">
           <h1 className="inline-block mt-10  text-transparent text-5xl bg-clip-text bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600 lg:text-[7rem] xl:text-8xl font-serif  md:text-7xl md:text-left text-center font-black">
             Be it any industry
@@ -23,10 +23,10 @@ const Hero = () => {
             </button>
           </a>
         </div>
-        <div className="-mt-5 flex justify-center items-center ">
+        <div className=" -mt-5 flex justify-center items-center object-right">
           <img
             src={heroimage}
-            className=" h-full w-full md:h-[22rem] lg:h-[20rem] xl:h-[40rem] lg:object-right object-cover "
+            className=" h-full w-full md:h-[22rem] lg:h-[20rem] xl:h-[40rem] lg:object-right object-cover  "
             alt=""
           />
         </div>
